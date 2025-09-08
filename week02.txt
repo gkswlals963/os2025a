@@ -1,0 +1,41 @@
+리눅스
+
+ls : 현재 폴더 보기
+
+ls 옵션a : 숨긴폴더도 같이 보기
+
+touch : 파일 만들기
+
+cat : 내용 콘솔에 출력
+
+cd : 체인지 디렉토리 위치 이동
+
+.  :  현재 폴더
+..  : 상위 폴더
+
+----------------------------------------------------------------------------------------------
+
+git 명령어 
+
+git init : git 관리 폴더
+
+git stauts: 상태 확인
+
+git add (파일 이름) : 특정 파일 준비
+
+git add : 현재 폴더 준비
+
+git -list : 
+
+git commit -m "first" : 체크 포인트
+
+git config --global user.email "202508083@itc.ac.kr" : 유저 메일 설정
+
+git config --global user.name "202508083" : 유저 이름 설정
+
+git log : 체크포인트 확인
+
+git checkout (해시코드 전체 또는 7자리) : 체크포인트로 돌아감
+
+git checkout - : 원래대로 돌아감
+

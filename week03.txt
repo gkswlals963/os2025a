@@ -1,0 +1,36 @@
+리눅스 명령어
+
+echo "This repository is for the Open source Programing course in the Fall 2025 semester." >> README.md
+echo "asd" >> README.md : 리포지토리 소개 문구
+
+rm 파일명 : 제거
+
+history : 그동안 친 명령어 확인
+
+
+깃 명령어
+
+git branch -M main : 브랜치 main으로 변경
+
+git remote add origin https://github.com/아이디/원격리포지토리 이름.git
+
+git push -u origin main : 깃허브 리포지토리 만들기
+
+git push : 위에꺼 한번 하고 난 후 이걸로 대체가능
+
+git remote -v : 리포지토리 등록 확인 
+
+git remote remove origin
+
+git clone 원격 리포지토리 주소 : 복제
+
+git clone 원격 리포지토리 주소 . : 복제
+
+
+
+
+
+
+
+
+
