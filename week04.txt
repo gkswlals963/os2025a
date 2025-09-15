@@ -1,0 +1,9 @@
+깃 명령어
+
+git commit --amend -m "수정 할 커밋 메세지" : 커밋 메세지 수정
+
+git reset --hard HEAD~삭제 할 파일 개수 : 최근 만든파일 숫자만큼 삭제
+
+git fetch
+
+git pull
