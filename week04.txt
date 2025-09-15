@@ -11,4 +11,6 @@ git reset --hard HEAD~삭제 할 파일 개수 : 최근 만든파일 숫자만�
 
 git fetch
 
-git pull (git pull)
+git pull 
+
+git push -f origin main : 푸시까지 한 상태에서 커밋 삭제
