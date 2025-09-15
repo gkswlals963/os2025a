@@ -1,5 +1,6 @@
 리눅스 명령어
-vi filename
+vi 파일명 (vi filename)
+
 
 
 깃 명령어
@@ -10,4 +11,4 @@ git reset --hard HEAD~삭제 할 파일 개수 : 최근 만든파일 숫자만�
 
 git fetch
 
-git pull
+git pull (git pull)
