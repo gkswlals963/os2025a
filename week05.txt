@@ -1,17 +1,20 @@
+GO 명령어
+
+go mod init : 프로젝트 폴더명
+go run 파일명.go :
+go build 파일명.go :
+
+
 리눅스 명령어
 vi 파일명 (vi filename)
 history | less
+cp : 원본파일 -> 복사본 파일
 
 
 
 깃 명령어
 
-git commit --amend -m "수정 할 커밋 메세지" : 커밋 메세지 수정
+git reset : 무대 올라간 파일 내리기
 
-git reset --hard HEAD~삭제 할 파일 개수 : 최근 만든파일 숫자만큼 삭제
-
-git fetch
-
-git pull 
-
-git push -f origin main : 푸시까지 한 상태에서 커밋 삭제
+기타
+.gitignore 파일 생성 (*.exe)
