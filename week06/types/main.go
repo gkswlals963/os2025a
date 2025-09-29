@@ -7,7 +7,6 @@ import (
 )
 
 func main() {
-	fmt.Println(math.Floor(2.71))
-	fmt.Println(strings.Title("head first go"))
-
+	val name = "HJM"
+	
 }
