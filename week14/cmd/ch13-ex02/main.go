@@ -1,22 +1,29 @@
 package main
 
-import (
-	"fmt"
-	"time"
-)
+import "fmt"
 
-func say(msg string) {
-	for i := 0; i < 3; i++ {
-		fmt.Println(msg, ":", i)
-		time.Sleep(2000 * time.Millisecond)
-	}
+func abc(channel chan string) {
+	channel <- "내고향 스페셜\n"
+	channel <- "KBS 뉴스광장\n"
+	channel <- "인간극장\n"
+}
+
+func def(channel chan string) {
+	channel <- "건강의 재구성 설록(재)\n"
+	channel <- "오늘N\n"
+	channel <- "찾아가는 꾸러기 교실\n"
 }
 
 func main() {
-	start := time.Now()
-	say("고루틴") // 새 고루틴에서 실행
-	say("메인")  // 메인 고루틴에서 실행
-
-	//time.Sleep(1 * time.Second)
-	fmt.Println("전체 실행 시간 : ", time.Since(start))
+	kbs := make(chan string)
+	mbc := make(chan string)
+	go abc(kbs)
+	go def(mbc)
+	fmt.Print(<-kbs)
+	fmt.Print(<-mbc)
+	fmt.Print(<-kbs)
+	fmt.Print(<-mbc)
+	fmt.Print(<-kbs)
+	fmt.Print(<-mbc)
+	fmt.Println()
 }
